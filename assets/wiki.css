@@ -1,0 +1,6 @@
+.board-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin: 0.4rem 0 1.6rem; }
+.board-pair figure { margin: 0; }
+.board-pair img { width: 100%; height: auto; display: block; }
+.board-pair figcaption { font-size: 0.75rem; margin-top: 0.2rem; }
+@media (max-width: 700px) { .board-pair { grid-template-columns: 1fr; } }
+.md-typeset del, .md-typeset s { text-decoration: line-through; opacity: 0.7; }
