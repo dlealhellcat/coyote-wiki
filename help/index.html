@@ -11,7 +11,7 @@
       
       
       
-        <link rel="prev" href="../registry/">
+        <link rel="prev" href="../shot-ids/">
       
       
       
@@ -288,14 +288,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../registry/" class="md-nav__link">
+      <a href="../shot-ids/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Registry
+    Shot ids
   
 
     
@@ -475,52 +475,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#registry-rules" class="md-nav__link">
+  <a href="#shot-id-rules" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Registry rules
+        Shot id rules
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Registry rules">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#from-status-this-is-the-one-authoritative-numbering-document-ruled-2026-10-21" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        From "STATUS: THIS IS THE ONE AUTHORITATIVE NUMBERING DOCUMENT (RULED 2026-10-21)"
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#from-rules" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        From "Rules"
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#from-approved-boards" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        From "Approved boards"
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -659,52 +620,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#registry-rules" class="md-nav__link">
+  <a href="#shot-id-rules" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Registry rules
+        Shot id rules
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Registry rules">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#from-status-this-is-the-one-authoritative-numbering-document-ruled-2026-10-21" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        From "STATUS: THIS IS THE ONE AUTHORITATIVE NUMBERING DOCUMENT (RULED 2026-10-21)"
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#from-rules" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        From "Rules"
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#from-approved-boards" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        From "Approved boards"
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -791,7 +713,7 @@
 <li><strong>Prompt shape:</strong> a one-line brief, then labelled blocks: IN FRAME, THE LENS SEES, WHAT HAPPENS, CAMERA (lens, height, distance), LIGHT, set notes, the character's DESIGN, and a closing line excluding text, captions, borders and watermarks. Each reference image's role is stated explicitly.</li>
 <li><strong>Process (Leal, 22 Oct):</strong> the chairs draw anchors in Sunburst, Leal edits them himself, and only his edited pictures go in.</li>
 <li><strong>Approval:</strong> only boards Leal approves in his own typed words count. "Good for now" is not approval. Superseded boards stay on disk and are never shown.</li>
-<li><strong>Filing:</strong> <code>shots\&lt;shot id&gt;\boards\&lt;shot id&gt;_&lt;START|END&gt;_&lt;version&gt;_&lt;date&gt;.jpg</code> plus a <code>.txt</code> sidecar, and a row in the registry's Approved boards table (shot id, side, file, version, date, approved by (quoted), generation id, sha256, was id). A re-approval strikes the old row at its own site and adds a new one. The sha256 is taken from the saved G: file.</li>
+<li><strong>Filing:</strong> <code>shots\&lt;shot id&gt;\boards\&lt;shot id&gt;_&lt;START|END&gt;_&lt;version&gt;_&lt;date&gt;.jpg</code> plus a <code>.txt</code> sidecar, and an entry in that shot's "Boards (approved)" line of the shot table (file, version, approval date, approver's words, generation id, sha256), which Sam also records in the registry. A re-approval strikes the old entry at its own site and adds a new one. The sha256 is taken from the saved G: file.</li>
 </ol>
 <h3 id="the-leonardo-panel">The Leonardo panel<a class="headerlink" href="#the-leonardo-panel" title="Permanent link">&para;</a></h3>
 <p><em>From Adam, from runs on 22-23 Oct.</em></p>
@@ -815,33 +737,8 @@
 <li><strong>Time and memory:</strong> about 2 to 3.5 minutes and about 16 GB of RAM per new prompt, from earlier runs. <em>Not re-measured on 2026-10-23.</em></li>
 <li><strong>Avoid:</strong> keys and takes on top can hide a new keypose. A take mixed at weight 1, or a hips (whole figure) key on that frame, covers it. Untick takes or lower their weight while staging.</li>
 </ul>
-<h2 id="registry-rules">Registry rules<a class="headerlink" href="#registry-rules" title="Permanent link">&para;</a></h2>
-<p>A summary of the rules written in the registry itself (<code>G:\My Drive\projects\coyote\docs\Coyote_shot_id_registry.md</code>). The registry is the authority; where this summary and the registry differ, the registry wins. Section headings are quoted.</p>
-<h3 id="from-status-this-is-the-one-authoritative-numbering-document-ruled-2026-10-21">From "STATUS: THIS IS THE ONE AUTHORITATIVE NUMBERING DOCUMENT (RULED 2026-10-21)"<a class="headerlink" href="#from-status-this-is-the-one-authoritative-numbering-document-ruled-2026-10-21" title="Permanent link">&para;</a></h3>
-<ul>
-<li>The registry is the authority for shot ids. The old-to-new naming table is a derived view, regenerated from it and never edited as a second copy; where the two differ, the registry wins.</li>
-<li><strong>Update flow:</strong> Adam's shot breakdown summary proposes changes as a diff against the registry; Sam applies the diff, then regenerates the table. A change to an existing id still needs an approved table from Leal.</li>
-<li><strong>"Two rules for a mismatch between this file and the breakdown":</strong><ol>
-<li>In the registry but absent from the breakdown: a candidate for removal. Do not delete it or reuse its number; it stays listed with the flag <code>NOT IN BREAKDOWN</code> until Leal confirms the cut, then it is marked <code>RETIRED/&lt;ruling&gt;</code> with the breakdown run named.</li>
-<li>In the breakdown but absent from the registry: an addition. It takes its place in the cut order, the shots after it renumber, and the previous id of every renumbered shot is noted beside it. Never a letter suffix.</li>
-</ol>
-</li>
-</ul>
-<h3 id="from-rules">From "Rules"<a class="headerlink" href="#from-rules" title="Permanent link">&para;</a></h3>
-<ol>
-<li>Form is <code>beat&lt;scene&gt;_shot&lt;NN&gt;</code>, NN zero-padded from 01.</li>
-<li>Path-safe beat ids: <code>3-base</code> and <code>3-halluc</code> normalise to <code>beat3base</code> and <code>beat3halluc</code> in a path; the beat sheet keeps its own display labels.</li>
-<li>No descriptive ids: a human-readable name belongs in <code>shot.json</code> beside the id, never as the id.</li>
-<li>Zero-shot beats (3-base and 4, pure gameplay) get no shot directories.</li>
-<li>Shot ids are numbered in cut order. A newly added shot takes its place, the later shots renumber, and every renumbered shot's previous id is noted. The rule covers shot ids and clue ids. (This replaced the earlier never-renumber rule, which is struck in the registry.) <strong>Still open for Leal:</strong> what a cut shot's number does (retire, or close the gap).</li>
-</ol>
-<h3 id="from-approved-boards">From "Approved boards"<a class="headerlink" href="#from-approved-boards" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Only boards Leal has approved are listed. "Good for now" is not approval, and neither is a relay that does not quote his words.</li>
-<li>The sha256 is computed from the saved file, not copied from a report. A hash proves the file is intact, not that it is the current approval, so each row also carries the version, the date and Leal's quoted words.</li>
-<li>A re-approval strikes the old row at its own site (<code>STRUCK/&lt;ruling&gt;</code>, with his words) and adds the new one; rows are never deleted.</li>
-<li>Superseded boards stay on disk where they were made and are listed by generation id only, never copied to G: or shown on a page.</li>
-</ul>
+<h2 id="shot-id-rules">Shot id rules<a class="headerlink" href="#shot-id-rules" title="Permanent link">&para;</a></h2>
+<p>The shot-id rules and the list of renumbered ids are on <a href="../shot-ids/">Shot ids</a>. Every shot's data, lengths and approved boards are on the <a href="../shot-table/">Shot table</a>, which is the authority for sequence m05.</p>
 
 
 
