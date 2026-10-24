@@ -4,3 +4,11 @@
 .board-pair figcaption { font-size: 0.75rem; margin-top: 0.2rem; }
 @media (max-width: 700px) { .board-pair { grid-template-columns: 1fr; } }
 .md-typeset del, .md-typeset s { text-decoration: line-through; opacity: 0.7; }
+.shot-index .md-typeset__table, .shot-index table { font-size: 0.68rem; }
+.shot-index td, .shot-index th { padding: 0.4em 0.6em !important; }
+.md-typeset img.thumb { width: 104px !important; max-width: none !important; height: auto !important; aspect-ratio: 1376 / 768; display: block; }
+.shot-index td:nth-child(5) { min-width: 15em; }
+.shot-index td:nth-child(6) { min-width: 7em; }
+.shot-index td:nth-child(1) code { white-space: nowrap; }
+.md-grid { max-width: 100rem; }
+.shot-index td:nth-child(9), .shot-index td:nth-child(10) { min-width: 112px; }
