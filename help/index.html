@@ -435,6 +435,56 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#solve-a-capture-into-a-previs-shot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solve a capture into a previs shot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scail-2-character-animation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SCAIL-2 character animation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regenerate-an-animation-with-kimodo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regenerate an animation with Kimodo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -580,6 +630,56 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#solve-a-capture-into-a-previs-shot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solve a capture into a previs shot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scail-2-character-animation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SCAIL-2 character animation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regenerate-an-animation-with-kimodo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regenerate an animation with Kimodo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -676,6 +776,11 @@
 
 <h1 id="help">Help<a class="headerlink" href="#help" title="Permanent link">&para;</a></h1>
 <h2 id="freya-help">Freya help<a class="headerlink" href="#freya-help" title="Permanent link">&para;</a></h2>
+<figure>
+  <img alt="The Previs tab with the Outliner, Viewport and Timeline panels, and a small grey cube in the middle of the viewport." src="../assets/help/help-previs-01.png" />
+<br />
+<figcaption>The Previs tab: the Outliner on the left, the Viewport in the middle, the Timeline underneath. The buttons along the top add things to the scene.</figcaption>
+</figure>
 <h3 id="help-documents-that-exist">Help documents that exist<a class="headerlink" href="#help-documents-that-exist" title="Permanent link">&para;</a></h3>
 <p>Read-only list of the Freya and previs documents in the code repo (paths as text; open them from disk). Found by searching <code>D:\repos\coyote-frame-fixer</code> for README files and <code>docs\*.md</code> that mention Freya or previs, 2026-10-23.</p>
 <table>
@@ -723,15 +828,191 @@
 <h3 id="how-tos">How-tos<a class="headerlink" href="#how-tos" title="Permanent link">&para;</a></h3>
 <p><em>Written by Adam, accurate as of 2026-10-23.</em></p>
 <p><strong>Rename.</strong> Double-click an object or set piece name in the Outliner, or select it and press F2. Type; Enter keeps it, Escape cancels. Ctrl+Z undoes. A name already used, or an empty one, is refused with a log line.</p>
+<figure>
+  <img alt="An Outliner row turned into an editable text box with the name selected." src="../assets/help/help-previs-02.png" />
+<br />
+<figcaption>Double-click a name in the Outliner (or select it and press F2). The name becomes a text box.</figcaption>
+</figure>
+<figure>
+  <img alt="The text box now holds a new name being typed." src="../assets/help/help-previs-03.png" />
+<br />
+<figcaption>Type the new name. Enter keeps it, Escape cancels.</figcaption>
+</figure>
+<figure>
+  <img alt="The Outliner row now shows the new name." src="../assets/help/help-previs-04.png" />
+<br />
+<figcaption>After Enter the Outliner shows the new name. Ctrl+Z puts the old one back.</figcaption>
+</figure>
 <p><strong>Delete.</strong> Select an object, set piece or mark (in the Outliner or the viewport) and press Delete. Ctrl+Z puts it back; for objects there is also "Undo delete".</p>
+<figure>
+  <img alt="The viewport with one cube selected, shown with its move arrows." src="../assets/help/help-previs-05.png" />
+<br />
+<figcaption>Select the object and press Delete. Here the cube is selected, before Delete is pressed.</figcaption>
+</figure>
+<figure>
+  <img alt="The viewport with the cube removed and an undo delete button at the top left." src="../assets/help/help-previs-06.png" />
+<br />
+<figcaption>After Delete the object is gone and an “undo delete” button appears at the top. Ctrl+Z also brings it back.</figcaption>
+</figure>
 <p><strong>Colour.</strong> Select a set piece or object; in Properties use the Colour swatch. "Grey" removes the colour. Colour is stored linear and shows in the Block and Lit views. Uncoloured things look as they always did.</p>
+<figure>
+  <img alt="The Properties panel with a Colour swatch and a Grey button." src="../assets/help/help-previs-07.png" />
+<br />
+<figcaption>Select an object and use the Colour swatch in Properties. The Grey button takes the colour away.</figcaption>
+</figure>
+<p><strong>Viewport views.</strong> The buttons at the top of the viewport switch between Block, Lit and Silhouette.</p>
+<figure>
+  <img alt="The viewport in Lit view, with a lit cube on a brown ground and a blue-grey sky." src="../assets/help/help-previs-08.png" />
+<br />
+<figcaption>The buttons at the top of the viewport switch between Block, Lit and Silhouette. This is the Lit view.</figcaption>
+</figure>
 <p><strong>Start from shot.</strong> On a shot with no saved file, the Direct panel shows "Start from shot". Type the shot to copy (for example <code>m05_02_03</code>), pick the file (main or a saved version), press Start, then "Copy into &lt;shot&gt; and save". It copies set pieces, props, marks, camera (static), lights, exposure and cast; it does not copy takes, keyposes, in-betweens or hand keys. The source shot is not changed.</p>
+<figure>
+  <img alt="The Direct panel of a shot with no saved file, showing the Start from shot box, a file list and a Start button." src="../assets/help/help-previs-12.png" />
+<br />
+<figcaption>A shot with no saved file shows “Start from shot”. Type the shot to copy from, pick a file, then press Start. Nothing is copied until you do.</figcaption>
+</figure>
 <p><strong>Save as version.</strong> In the Direct panel type a version name and press "Save as version". It writes <code>&lt;shot&gt;.freya-previs.&lt;name&gt;.json</code> beside the main file and never overwrites. Open a version with <code>?version=&lt;file name&gt;</code> in the URL.</p>
+<figure>
+  <img alt="The Direct panel with a version name typed into its box and the Save as version button beside it." src="../assets/help/help-previs-09.png" />
+<br />
+<figcaption>Type a version name in the Direct panel and press Save as version. It writes a new file beside the main one and never overwrites it. The picture is taken before the button is pressed.</figcaption>
+</figure>
 <p><strong>Takes as layers.</strong> Every take is a layer over the performance (solve + keyposes + in-betweens + hand keys). Each take row has an on/off box, a weight field (0 to 1, default 1) and "+ key" / "- key". Weight keys show as blue diamonds on the take's track and ease between keys. Lower lanes mix over higher ones. Unticked takes are not mixed, whatever their keys say.</p>
 <p><strong>Head IK handle.</strong> Select "head" in the Outliner. Dragging leans or nods the head on the neck (about 13 cm reach); rotating turns the head. The jaw and eyes follow.</p>
+<figure>
+  <img alt="The timeline with two rows, Head translate and Head rotate, each with number boxes and a plus key button." src="../assets/help/help-previs-10.png" />
+<br />
+<figcaption>Select “head” in the Outliner. The timeline lists Head translate and Head rotate, each with a + key button.</figcaption>
+</figure>
+<figure>
+  <img alt="The Properties panel for the head with three position boxes and plus and minus buttons." src="../assets/help/help-previs-11.png" />
+<br />
+<figcaption>The Properties panel shows the head’s position and nudge buttons. Dragging the head handle in the viewport changes the same numbers.</figcaption>
+</figure>
 <p><strong>Hips (whole figure) key.</strong> Moves and turns the whole figure to where it was keyed, carrying the current pose.</p>
+<h3 id="worked-examples">Worked examples<a class="headerlink" href="#worked-examples" title="Permanent link">&para;</a></h3>
+<p><em>Drafted by Sam from Freya's own labels, tooltips and warnings, 25 Oct. <strong>[not run]</strong> marks a step read from the screen but not run; none of the three was run end to end.</em></p>
+<figure>
+  <img alt="The Preset menu open on the Workflow tab, listing SCAIL-2, Infill, Stage and Capture solve." src="../assets/help/help-workflow-01.png" />
+<br />
+<figcaption>On the Workflow tab, the Preset menu lists the ready-made graphs, including SCAIL-2 and Capture solve.</figcaption>
+</figure>
+<h4 id="solve-a-capture-into-a-previs-shot">Solve a capture into a previs shot<a class="headerlink" href="#solve-a-capture-into-a-previs-shot" title="Permanent link">&para;</a></h4>
+<p>Two videos of one performance, from two cameras, become motion for a character in a previs shot.</p>
+<ol>
+<li>Open the <strong>Workflow</strong> tab. Press <strong>Preset</strong> and choose <strong>Capture solve (two cameras to a previs shot)</strong> under "Solve a capture". You get two Infile nodes, a <strong>Solve capture</strong> node (Camera A, Camera B) and a <strong>Previs shot</strong> node.</li>
+<li>In each Infile, leave Source on <strong>Video file</strong> and press <strong>Choose File</strong>. Frame size is read from the file. <strong>[not run]</strong></li>
+<li>In Solve capture, for each camera set <strong>Focal is</strong> (35mm equivalent, actual focal in mm, or pixels), then the focal value, the camera <strong>Height m</strong> (floor to camera) and the <strong>Frame offset</strong> between the two videos. Without a focal there is no camera matrix; without a height the solve has no vertical. Freya warns about both on the node. <strong>[not run]</strong></li>
+<li>Click each camera's picture to place markers. Mark the same thing in both cameras and give it the same name; type the real distance once per pair. Freya asks for at least two paired, measured points: one sets the scale, the second checks it. <strong>[not run]</strong></li>
+<li>Press <strong>Run solve</strong> (it stays unavailable until the warnings are cleared). <strong>[not run]</strong></li>
+<li>In the Previs shot node set <strong>Shot</strong>, <strong>Actor</strong> and <strong>Deliver</strong> (Whole capture or Keyposes only). The motion is written to that shot's actor motion file. <strong>[not run]</strong></li>
+<li>Open the shot in the Previs tab, select the character in the Outliner, and in Properties use <strong>Solve → Import solve…</strong> if the motion is not already attached. Choose frames to use as keyposes from the keypose lane's "from" list. <strong>[not run: Import solve…]</strong></li>
+</ol>
+<p><strong>Cost:</strong> no cost is shown on the solve nodes; where it runs is not confirmed.</p>
+<figure>
+  <img alt="A graph with two Infile nodes, a Solve capture node and a Previs shot node joined by lines." src="../assets/help/help-solve-01.png" />
+<br />
+<figcaption>The Capture solve preset: two video inputs feed the Solve capture node, whose motion goes to the Previs shot node. The shot name box is hidden here.</figcaption>
+</figure>
+<figure>
+  <img alt="The Solve capture node showing a Focal is list, Focal px, Height m and Frame offset boxes." src="../assets/help/help-solve-02.png" />
+<br />
+<figcaption>Under each camera: how the focal length is given, the focal value, the camera height and the frame offset between the two videos.</figcaption>
+</figure>
+<figure>
+  <img alt="The bottom of the Solve capture node with orange notes above a greyed Run solve button." src="../assets/help/help-solve-03.png" />
+<br />
+<figcaption>Run solve stays greyed out until the orange notes are cleared: a focal length for each camera, a camera height, and at least two paired measured points.</figcaption>
+</figure>
+<figure>
+  <img alt="The Properties panel with an Import solve button and head, hands and feet proxy checkboxes." src="../assets/help/help-kimodo-03.png" />
+<br />
+<figcaption>In Properties, Import solve… attaches a solved motion to the character. The keypose lane then lifts frames from it.</figcaption>
+</figure>
+<h4 id="scail-2-character-animation">SCAIL-2 character animation<a class="headerlink" href="#scail-2-character-animation" title="Permanent link">&para;</a></h4>
+<p>A reference picture or clip is animated to follow a driving video.</p>
+<ol>
+<li><strong>Workflow</strong> tab → <strong>Preset</strong> → <strong>SCAIL-2 (character animation)</strong>. You get an Infile (the reference), a second Infile set to Video file (the driving video), the <strong>SCAIL-2</strong> node and an <strong>Outfile</strong>.</li>
+<li>In the first Infile load the reference with <strong>Load clip / image</strong> (or <strong>Load Clip/Image</strong> in the top bar). In the second press <strong>Choose File</strong> and pick the driving video.</li>
+<li>In SCAIL-2 leave <strong>Backend</strong> on RunPod (rented GPU, self-hosted). Type a short description of the scene and motion in <strong>Prompt</strong> (general words, one or two sentences).</li>
+<li>Set <strong>Subject type</strong> (human, animal or object) and <strong>Resolution</strong> (512p up to 1080p, or custom). The optional Extra references and Environment inputs can stay empty.</li>
+<li>Press <strong>Run</strong>. It stays greyed out and lists what is missing: "Choose the driving video file", "Load a clip or image in the Reference node", "Enter a prompt". <strong>[Run not pressed]</strong></li>
+<li>The video appears in Outfile and in the <strong>Result</strong> tab on the right. To clean it up, use <strong>Operator → Infill / Remove object</strong> or the preset <strong>SCAIL-2, then Infill</strong>. <strong>[not run]</strong></li>
+</ol>
+<p><strong>Cost:</strong> each Run uses a rented RunPod GPU and costs money; check the cost with the project owner before pressing Run.</p>
+<figure>
+  <img alt="A graph with an Infile feeding a SCAIL-2 node, which feeds an Outfile, with an empty prompt box." src="../assets/help/help-scail-01.png" />
+<br />
+<figcaption>The SCAIL-2 preset: a reference input, a driving video, the SCAIL-2 node and an Outfile. The prompt box is left empty.</figcaption>
+</figure>
+<figure>
+  <img alt="The lower part of the SCAIL-2 node with Subject type and Resolution lists, three orange requirements and a greyed Run button." src="../assets/help/help-scail-02.png" />
+<br />
+<figcaption>Run stays greyed out and lists what is missing. The picture is taken before anything is loaded; nothing was run.</figcaption>
+</figure>
+<h4 id="regenerate-an-animation-with-kimodo">Regenerate an animation with Kimodo<a class="headerlink" href="#regenerate-an-animation-with-kimodo" title="Permanent link">&para;</a></h4>
+<p><strong>Route A, whole shot.</strong></p>
+<ol>
+<li>Previs tab, open the shot. In the Direct panel edit <strong>Describe what happens in the shot</strong> (a short motion description with a rough timing).</li>
+<li>Beside <strong>Generate animation</strong> there are two lists. The first chooses how the description is read (Auto (Gemini), Offline rules, Gemini, Claude (no key)). The second chooses the motion engine (Procedural walk or Kimodo); make sure it reads Kimodo, which is how it opens.</li>
+<li>Press <strong>Generate animation</strong>. To regenerate, change the description and press it again. <strong>[not run; whether the result replaces the earlier one or is kept as a take is not confirmed]</strong></li>
+<li>Keep the result with <strong>Save as version</strong> under a new name; never overwrite the main.</li>
+</ol>
+<figure>
+  <img alt="Two drop-down lists, the second set to Kimodo, above a Generate animation button." src="../assets/help/help-kimodo-01.png" />
+<br />
+<figcaption>Two lists sit beside Generate animation: the first chooses how the description is read, the second chooses the motion engine (Procedural walk or Kimodo). Shown before the button is pressed.</figcaption>
+</figure>
+<p><strong>Route B, between two poses</strong> (as in <a href="#kimodo-in-betweens">Kimodo in-betweens</a> below).</p>
+<ol>
+<li>Turn <strong>Animate</strong> on (bottom left of the timeline) and select the character in the Outliner. The timeline shows the keypose lane.</li>
+<li>Put the playhead where a pose should play, choose the source frame in <strong>from</strong>, press <strong>+ keypose f&lt;n&gt;</strong> ("lift solve frame n and place it at the playhead"). Repeat for the second pose.</li>
+<li>Select exactly two keyposes on the lane; <strong>+ in-between</strong> becomes available. It makes a block and does not generate. <strong>[button state confirmed; making a block was not completed]</strong></li>
+<li>Generate the block from the in-between controls. <strong>[not run; the exact Generate / Regenerate label was not seen]</strong> Then <strong>Save performance as take</strong>.</li>
+</ol>
+<p><strong>Cost:</strong> no rented GPU is named in these controls; see <a href="#kimodo-in-betweens">Kimodo in-betweens</a> for time and memory from earlier runs.</p>
+<figure>
+  <img alt="The timeline keypose lane with the plus keypose, from, save pose and plus in-between controls." src="../assets/help/help-kimodo-02.png" />
+<br />
+<figcaption>With the character selected and Animate on, the timeline shows the keypose lane: + keypose, a “from” list, save pose, and + in-between (greyed until two keyposes are selected).</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Not confirmed yet</p>
+<p>Where the capture solve runs and whether it costs anything; what Generate animation with Kimodo does to an existing animation (replace or keep); the in-between block's Generate label; Import solve… was seen but not pressed.</p>
+</div>
 <h2 id="freya-scene-work">Freya scene work<a class="headerlink" href="#freya-scene-work" title="Permanent link">&para;</a></h2>
 <p>Everything is done in the Freya UI. Use <strong>Save as version</strong> under a new name; main files are never overwritten. A missing control is requested from Adam, never scripted.</p>
+<figure>
+  <img alt="The Outliner panel listing a character with left hand, right hand, left foot, right foot and head under it." src="../assets/help/help-scene-01.png" />
+<br />
+<figcaption>The Outliner lists the characters first, each with its hand, foot and head handles, then the objects in the scene, then the camera. Click a name to select it.</figcaption>
+</figure>
+<figure>
+  <img alt="The viewport in Block view: a grey figure beside a round platform, with dashed guide lines and small named marks." src="../assets/help/help-scene-02.png" />
+<br />
+<figcaption>The Block view shows the scene as plain shapes, with the safe area, the focus guides and the marks. Mark names are hidden here.</figcaption>
+</figure>
+<figure>
+  <img alt="The viewport in Silhouette view: a solid black figure standing on a grey ground." src="../assets/help/help-scene-03.png" />
+<br />
+<figcaption>The Silhouette view turns every figure solid black, which is the quick way to check that a pose reads.</figcaption>
+</figure>
+<figure>
+  <img alt="A text box under the label Describe what happens in the shot, holding one sentence about a character walking and looking." src="../assets/help/help-scene-04.png" />
+<br />
+<figcaption>In the Direct panel, “Describe what happens in the shot” holds a short plain description of the action. Generate animation reads it.</figcaption>
+</figure>
+<figure>
+  <img alt="The Properties panel for the camera with Position and Look at boxes for x, y and z, and a Focal length box." src="../assets/help/help-scene-05.png" />
+<br />
+<figcaption>Select the shot camera in the Outliner and Properties shows its position, what it looks at, and its focal length.</figcaption>
+</figure>
+<figure>
+  <img alt="The timeline with the Animate on button, a camera Key button, blend and hold controls, and an empty CAM track." src="../assets/help/help-scene-06.png" />
+<br />
+<figcaption>With Animate on, the timeline shows the camera key button and a CAM track. Move the playhead, then press Key to set a camera position at that frame.</figcaption>
+</figure>
 <h2 id="sunburst-storyboards">Sunburst storyboards<a class="headerlink" href="#sunburst-storyboards" title="Permanent link">&para;</a></h2>
 <p><em>From Sam, read from the board sidecars and the registry.</em></p>
 <ol>
